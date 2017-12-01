@@ -1,0 +1,28 @@
+<idea-plugin>
+	<id>com.matej21.intellij.betterPhpDoc</id>
+	<name>Better PhpDoc</name>
+	<version>0.1</version>
+	<vendor email="matej21@matej21.cz">David Matejka</vendor>
+
+	<depends>com.intellij.modules.lang</depends>
+	<depends>com.jetbrains.php</depends>
+
+	<description><![CDATA[
+    ]]></description>
+
+	<change-notes><![CDATA[
+    ]]>
+	</change-notes>
+
+	<idea-version since-build="172.0"/>
+
+
+	<extensions defaultExtensionNs="com.intellij">
+		<lang.parserDefinition language="PHP" implementationClass="com.matej21.intellij.betterPhpDoc.ParserDefinition" order="first"/>
+	</extensions>
+
+	<actions>
+		<!-- Add your actions here -->
+	</actions>
+
+</idea-plugin>
